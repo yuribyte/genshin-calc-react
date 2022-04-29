@@ -27,6 +27,12 @@ button {
   font-family: var(--font);
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 h1,
 h2,
 h3 {
